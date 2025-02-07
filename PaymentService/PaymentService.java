@@ -17,6 +17,6 @@ public class PaymentService {
 
 	public void makePayment(String name){
 		PaymentMethod paymentMethod = paymentMethods.get(name);
-		paymentMethod.pay();
+		paymentMethod.pay(); // runtime polymorphism
 	}
 }
